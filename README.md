@@ -10,6 +10,13 @@ There is an ongoing effort to support other shells too. Contributors are very we
 ​
 ## Installation
 ​
+### Docker
+
+```
+docker pull NukedOne/hstr-rs:0.13.0
+docker run -it -e USER="$USER" -e HOME="$HOME" -v /home:/home NukedOne/hstr-rs:0.13.0
+```
+
 Make sure you have ncurses packages installed.
 
 If on Ubuntu:
